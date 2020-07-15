@@ -1,21 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-    <title>Nick Davies</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Nick Davies</title>
 </head>
+
 <body>
-    
+  <header>
+    <!-- HEADER AND NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- ABOUT LINK -->
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <!-- PROJECTS LINK -->
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <!-- ONLINE LOCATION LINK -->
+            <a class="nav-link" href="#online">Online</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
+  <div class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h1 class="display-head">Nick Davies</h1>
+          <p>Team focused, results driven.</p>
+          <p>Hello! and welcome to my page! </p>
+          <p> For the last decade I have been working in hospitality. From my first start at a Marriott Resort as a bellhop to my most recent 
+            position as assistant general manager of an opening dual brand hotel, passion and dedication has been at the heart of my career.</p>
+            <p>Now I am looking to bring my dedication and passion into the world of code.</p>
 
+        </div>
+        <div class="col-8" id="selfie">
+          <img src="Assets/self.jpg" />
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="border" id="about">
+    <h2>Bio</h2>
+  </div>
 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- About -->
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+            <p>In 2014, I finished my undergrad with the University of Kentucky and went straight into the
+              hospitality field. In my time there, I have gained the ability to lead and mentor teams of up to
+              thirty people.</p>
+          <p>In the first quarter of 2020, the hospitality industry was disrupted like never before, I took this
+              an opportunity to better myself and become more indispensible. So I enrolled at Eleven Fifty
+              Academy.</p>
+          <p>When I am not coding, I am usually spending time with my fiance and dog. I enjoy kayaking and cycling
+              and am an avid coin collector.</p>
+              <h4>
+                Take a <a href="Assets/John N Davies Resume Apr 2020.pdf">look</a> at my resume.
+              </h4>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border" id="projects">
+    <h2>Projects</h2>
+  </div>
+
+  <div class="projects">
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./Assets/CSS.PNG" class="card-img-top" alt="CSS creature">
+          <div class="card-body">
+            <h5 class="card-title">CSS Creature</h5>
+            <hr />
+            <p class="card-text">A creature in CSS</p>
+            <a href="https://codepen.io/cosmicclub/pen/PoZmqRQ" class="...">See the code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./Assets/war.PNG" class="card-img-top" alt="card game">
+          <div class="card-body">
+            <h5 class="card-title">War</h5>
+            <hr />
+            <p class="card-text">A console version of the card game War, written with a partner</p>
+            <a href="https://github.com/JNick-Davies/GoldBadge_Game" class="...">See the code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./Assets/static.PNG" class="card-img-top" alt="static store">
+          <div class="card-body">
+            <h5 class="card-title">Static Store Front</h5>
+            <hr />
+            <p class="card-text">HTML and CSS Practice</p>
+            <a href="https://github.com/JNick-Davies/Static_StoreFront" class="...">See the code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border" id="online">
+    <h2>The Google Search</h2>
+  </div>
+
+  <!-- ONLINE -->
+  <div class="online">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <p><h3>Heres where you can find me online:</h3></p>
+          <ul>
+            <li><a href="https://linkedin.com/in/jnick-davies">LinkedIn</a></li>
+            <li><a href="https://github.com/JNick-Davies">GitHub</a></li>
+            <li><a href="https://codepen.io/cosmicclub">CodePen</a></li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div>
+
+        <form action="https://formspree.io/mknqrrjq" method="POST">
+          <p>Questions, comments, concerns?</p>
+          <label>
+            <p>
+              Your email:
+            </p>
+            <input type="text" name="_replyto">
+          </label>
+         <p></p>
+            <label>
+              <p>
+                Your message:
+              </p>
+              <textarea name="message"></textarea>
+            </label>
+          </p>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+    <p>Copyright &copy; 2020 JND</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
 </body>
 </html>
