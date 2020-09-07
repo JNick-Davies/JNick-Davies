@@ -115,19 +115,30 @@ img {
 
 .card-title{
     color: black;
+    text-align: center;
 }
 
 .card-text {
     color: black;
+    text-align: center;
 }
 
 /* ONLINE */
-
+.online .container .row h3{
+    font-size: 150%;
+    padding-left: 20px;
+    text-align: center;
+}
+.online .row{
+    margin-left: 613px;
+    text-align: center;
+}
 .online .container {
     margin-left: 00px;
     background-color: #4078a5;
     max-width: none;
     padding: 75px;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -140,3 +151,7 @@ footer{
     width: 100%; 
     text-align: center;   
 }
+
+
+
+
